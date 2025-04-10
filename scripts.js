@@ -5,7 +5,7 @@ function convertValues() {
     const inputCurrencyValue = document.querySelector(".input-currency").value
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert") // Valor em Real
     const currencyValueConverted = document.querySelector(".currency-value") // Outras moedas
-    console.log(currencySelect.value)
+
     const dolarToday = 5.2
     const euroToday = 6.2
 
@@ -42,7 +42,7 @@ function changeCurrency() {
 
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImage.src = "./assets/euro.png"
+        currencyImage.src = "./assets/Euro.png"
     }
 
     convertValues()
